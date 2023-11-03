@@ -1,0 +1,47 @@
+.countries {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.icon {
+  width: 50px;
+  border: 1px solid;
+  font-size: xx-large;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.page-info {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.page-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.page-button:hover {
+  background-color: #0056b3;
+}
+
+.page-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}/*# sourceMappingURL=Countries.css.map */
